@@ -9,11 +9,11 @@ import (
 // API of CREATE READ UPDATE DELETE
 func main() {
 
-	//Connect to postgreSQL
+	// Connect to postgreSQL
 	goutils.ConnectDB("localhost", "postgres", "1Qaz2wsx", "postgres", "5432")
-	//Create table
+	// Create table
 	goutils.MigrateModel(UserModel{})
-
+	// Initialize Fiber App
 	app := fiber.New()
 
 	//CREATE
@@ -59,6 +59,7 @@ func main() {
 		})
 	})
 
+	// Application Port
 	app.Listen(":3000")
 }
 
