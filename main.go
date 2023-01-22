@@ -6,8 +6,9 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
+// API of CREATE READ UPDATE DELETE
 func main() {
-	//API of CREATE READ UPDATE DELETE
+
 	//Connect to postgreSQL
 	goutils.ConnectDB("localhost", "postgres", "1Qaz2wsx", "postgres", "5432")
 	//Create table
@@ -53,12 +54,11 @@ func main() {
 				"Error": deletErr,
 			})
 		}
-
 		return c.JSON(fiber.Map{
 			"Result": "successfully deleted",
 		})
-
 	})
+
 	app.Listen(":3000")
 }
 
