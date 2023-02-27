@@ -1,0 +1,353 @@
+
+ ┌───────────────────────────────────────────────────┐ 
+ │                   Fiber v2.41.0                   │ 
+ │               http://127.0.0.1:3000               │ 
+ │       (bound on host 0.0.0.0 and port 3000)       │ 
+ │                                                   │ 
+ │ Handlers ............. 6  Processes ........... 1 │ 
+ │ Prefork ....... Disabled  PID ............. 75426 │ 
+ └───────────────────────────────────────────────────┘ 
+
+
+2023/02/22 14:12:34 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[3.955ms] [34;1m[rows:6][0m SELECT * FROM users
+
+2023/02/22 14:12:39 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[13.108ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample1'
+
+2023/02/22 14:12:46 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.364ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'rebago' AND "users"."password" = 'rebago'
+
+2023/02/22 14:12:49 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.792ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 14:13:06 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.763ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample1'
+
+2023/02/22 14:15:41 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.044ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 14:16:56 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.945ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 14:17:59 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.690ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 14:20:34 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.770ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 14:27:35 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.708ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:06:31 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[12.262ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:07:56 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.685ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:08:06 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[13.409ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:08:06 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[5.260ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:08:46 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.684ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample2' AND "users"."password" = 'sample2'
+
+2023/02/22 15:08:52 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.811ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:09:09 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.880ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:09:09 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.051ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:11:06 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.344ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample2' AND "users"."password" = 'sample2'
+
+2023/02/22 15:11:21 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.755ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:12:19 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.684ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:12:25 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.817ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:12:25 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.394ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:13:37 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.692ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:13:42 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.812ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:13:42 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.416ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:14:32 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[1.523ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:14:32 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.763ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:16:33 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.866ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:16:33 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[2.172ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample1'
+
+2023/02/22 15:16:36 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.777ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:16:36 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[0.971ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:16:50 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.804ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:16:50 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.023ms] [34;1m[rows:0][0m UPDATE users SET name='sample' WHERE name='sample'
+
+2023/02/22 15:19:27 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[12.221ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample'
+
+2023/02/22 15:19:32 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.813ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:19:45 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.829ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample'
+
+2023/02/22 15:19:45 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.919ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample'
+
+2023/02/22 15:22:50 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.454ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample'
+
+2023/02/22 15:22:54 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.912ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:23:01 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[1.030ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:23:01 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[2.548ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample1'
+
+2023/02/22 15:23:42 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.547ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample'
+
+2023/02/22 15:23:45 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.450ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:23:57 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.913ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:23:57 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.982ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample1'
+
+2023/02/22 15:24:09 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.765ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample1' AND "users"."password" = 'sample'
+
+2023/02/22 15:24:13 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.573ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:24:22 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.704ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:24:22 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[6.206ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample1'
+
+2023/02/22 15:24:33 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.538ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'sample2' AND "users"."password" = 'sample'
+
+2023/02/22 15:24:36 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.635ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'sample' AND "users"."password" = 'sample'
+
+2023/02/22 15:25:22 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.953ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:25:22 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.867ms] [34;1m[rows:0][0m UPDATE users SET name='testing' WHERE name='sample1'
+
+2023/02/22 15:25:36 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.506ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:25:41 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.297ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='testing'
+
+2023/02/22 15:25:41 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[1.019ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='testing'
+
+2023/02/22 15:25:47 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.475ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='testing'
+
+2023/02/22 15:25:55 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[1.902ms] [34;1m[rows:6][0m SELECT * FROM users
+
+2023/02/22 15:26:11 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.302ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='sample1'
+
+2023/02/22 15:26:11 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[11.972ms] [34;1m[rows:0][0m UPDATE users SET name='sample1' WHERE name='sample1'
+
+2023/02/22 15:26:34 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.348ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'test' AND "users"."password" = '222'
+
+2023/02/22 15:26:50 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[1.528ms] [34;1m[rows:6][0m SELECT * FROM users
+
+2023/02/22 15:27:04 [32m/Users/fdsap/desktop/crud/main.go:69
+[0m[33m[8.453ms] [34;1m[rows:0][0m DELETE FROM users WHERE name='sample1'
+
+2023/02/22 15:27:07 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.258ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'test' AND "users"."password" = '222'
+
+2023/02/22 15:27:11 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[0.233ms] [34;1m[rows:3][0m SELECT * FROM users
+
+2023/02/22 15:27:28 [32m/Users/fdsap/desktop/crud/main.go:22
+[0m[33m[6.069ms] [34;1m[rows:1][0m INSERT INTO "users" ("name","username","password") VALUES ('Administrator','admin','admin') RETURNING "id"
+
+2023/02/22 15:27:35 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.279ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'admin' AND "users"."password" = 'admin'
+
+2023/02/22 15:27:55 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[0.283ms] [34;1m[rows:4][0m SELECT * FROM users
+
+2023/02/22 15:28:11 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.311ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='Administrator'
+
+2023/02/22 15:28:11 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[0.564ms] [34;1m[rows:0][0m UPDATE users SET name='Administrator' WHERE name='Administrator'
+
+2023/02/22 15:28:18 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.256ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'test' AND "users"."password" = 'admin'
+
+2023/02/22 15:28:43 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[0.281ms] [34;1m[rows:4][0m SELECT * FROM users
+signal: killed
+
+ ┌───────────────────────────────────────────────────┐ 
+ │                   Fiber v2.41.0                   │ 
+ │               http://127.0.0.1:3000               │ 
+ │       (bound on host 0.0.0.0 and port 3000)       │ 
+ │                                                   │ 
+ │ Handlers ............. 6  Processes ........... 1 │ 
+ │ Prefork ....... Disabled  PID ............. 48741 │ 
+ └───────────────────────────────────────────────────┘ 
+
+
+2023/02/22 15:34:33 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[4.196ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwa'
+
+2023/02/22 15:34:40 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[1.715ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='uwa%20uwo'
+
+2023/02/22 15:35:02 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.989ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwa'
+
+2023/02/22 15:35:14 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.870ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='uwa%20uwo'
+
+2023/02/22 15:35:56 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.948ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwa'
+
+2023/02/22 15:36:02 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.840ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='uwa%20uwo'
+
+2023/02/22 15:36:40 [32m/Users/fdsap/desktop/crud/main.go:22
+[0m[33m[3.070ms] [34;1m[rows:1][0m INSERT INTO "users" ("name","username","password") VALUES ('wau','wau','wau') RETURNING "id"
+
+2023/02/22 15:36:50 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.890ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'wau' AND "users"."password" = 'wau'
+
+2023/02/22 15:36:56 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.906ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='wau'
+
+2023/02/22 15:36:56 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[3.013ms] [34;1m[rows:1][0m UPDATE "users" SET "name"='wau',"username"='wau1',"password"='wau' WHERE name='wau'
+
+2023/02/22 15:36:56 [32m/Users/fdsap/desktop/crud/main.go:50
+[0m[33m[0.651ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE name='wau'
+
+2023/02/22 15:37:39 [32m/Users/fdsap/desktop/crud/main.go:22
+[0m[33m[11.773ms] [34;1m[rows:1][0m INSERT INTO "users" ("name","username","password") VALUES ('Test Sample','admin','admin') RETURNING "id"
+
+2023/02/22 15:37:42 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.623ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'test' AND "users"."password" = 'admin'
+
+2023/02/22 15:37:46 [32m/Users/fdsap/desktop/crud/main.go:30
+[0m[33m[0.767ms] [34;1m[rows:7][0m SELECT * FROM users
+
+2023/02/22 15:38:15 [32m/Users/fdsap/desktop/crud/main.go:48
+[0m[33m[0.356ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE name='Test%20Sample'
+signal: interrupt
+
+ ┌───────────────────────────────────────────────────┐ 
+ │                   Fiber v2.41.0                   │ 
+ │               http://127.0.0.1:3000               │ 
+ │       (bound on host 0.0.0.0 and port 3000)       │ 
+ │                                                   │ 
+ │ Handlers ............. 6  Processes ........... 1 │ 
+ │ Prefork ....... Disabled  PID ............. 56496 │ 
+ └───────────────────────────────────────────────────┘ 
+
+
+2023/02/22 15:44:53 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[5.135ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'wau' AND "users"."password" = 'wau'
+
+2023/02/22 15:44:56 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.175ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'wau1' AND "users"."password" = 'wau'
+
+2023/02/22 15:45:18 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.677ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'wau1' AND "users"."password" = 'wau'
+
+2023/02/22 15:49:36 [32m/Users/fdsap/desktop/crud/main.go:22
+[0m[33m[6.612ms] [34;1m[rows:1][0m INSERT INTO "users" ("name","username","password") VALUES ('Uwa Arban','uwa','uwo')
+
+2023/02/22 15:49:48 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[4.156ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwo'
+
+2023/02/22 15:49:59 [32m/Users/fdsap/desktop/crud/main.go:49
+[0m[33m[2.205ms] [34;1m[rows:1][0m SELECT COUNT(name) FROM users WHERE id='14'
+
+2023/02/22 15:49:59 [32m/Users/fdsap/desktop/crud/main.go:51
+[0m[33m[2.203ms] [34;1m[rows:1][0m UPDATE "users" SET "name"='Uwa Arban',"username"='uwa2',"password"='uwo' WHERE id='14'
+
+2023/02/22 15:49:59 [32m/Users/fdsap/desktop/crud/main.go:51
+[0m[33m[0.631ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE id='14'
+
+2023/02/22 15:50:13 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.089ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:35:20 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[23.911ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa1' AND "users"."password" = 'uwo'
+
+2023/02/22 16:35:32 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.722ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwo'
+
+2023/02/22 16:35:38 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.665ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa1' AND "users"."password" = 'uwa'
+
+2023/02/22 16:35:42 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[2.146ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa' AND "users"."password" = 'uwa'
+
+2023/02/22 16:36:13 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.667ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:40:34 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[2.172ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:41:40 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.038ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:49:35 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[1.765ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:54:51 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.730ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'
+
+2023/02/22 16:57:03 [32m/Users/fdsap/desktop/crud/main.go:38
+[0m[33m[0.831ms] [34;1m[rows:1][0m SELECT * FROM "users" WHERE "users"."username" = 'uwa2' AND "users"."password" = 'uwo'

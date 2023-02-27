@@ -12,8 +12,10 @@ var (
 	DBErr     error
 )
 
-func ConnectDB(host, user, pass, dbname, port string) {
-	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s, sslmode=disable TimeZone=Asia/Manila", host, user, pass, dbname, port)
+func PostgresConnection(host, user, pass, dbname, port string) {
+	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s, sslmode=disable TimeZone=Asia/Manila",
+		host, user, pass, dbname, port)
+
 	DBConnect, DBErr = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 }
 
